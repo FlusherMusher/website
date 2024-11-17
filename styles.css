@@ -125,4 +125,21 @@ a {
     margin-left: auto;
     margin-right: auto
   }
-  
+  a:hover {
+    font-size: 125%
+  }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.taskbar {
+  position: fixed;
+  bottom: 10em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+ background-image: url("win98.png");
+ background-repeat: no-repeat;
+}
