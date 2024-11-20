@@ -125,20 +125,14 @@ a {
     margin-left: auto;
     margin-right: auto
   }
-  a:hover {
-    font-size: 125%
+  @keyframes textscale {
+    from {font-size:100%;}
+    to {font-size:125%;}
   }
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.taskbar {
-  position: fixed;
-  bottom: 10em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  a:hover {
+  animation: textscale 0.2s ease-in-out;
+  animation-fill-mode: forwards;
+  }
 body {
  background-image: url("win98.png");
  background-repeat: no-repeat;
