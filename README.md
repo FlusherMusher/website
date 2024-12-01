@@ -1,4 +1,4 @@
-now deprecated! my apologies :) switched to flushy.surge.sh and im updating the files locally. still keeping this for no reason however
+# now deprecated! my apologies :) switched to flushy.surge.sh and im updating the files locally. still keeping this for no reason however
 
 index.html - main page
 
